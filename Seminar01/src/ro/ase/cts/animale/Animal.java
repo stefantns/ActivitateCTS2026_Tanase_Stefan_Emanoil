@@ -1,12 +1,15 @@
 package ro.ase.cts.animale;
 
 public abstract class Animal {
-    private String name;
-    private int age;
-    public abstract void eat(String food, String numeZooKeeper);
+    protected String name;
+    protected int age;
+    protected String food;
 
-    public Animal(String name, int age) {
+    public abstract void eat(String numeZooKeeper);
+
+    public Animal(String name, int age, String food) {
         this.name = name;
         this.age = age;
+        this.food = food;
     }
 }
