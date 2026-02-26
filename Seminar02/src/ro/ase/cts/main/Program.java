@@ -4,16 +4,20 @@ import java.io.FileNotFoundException;
 import java.util.List;
 
 import ro.ase.cts.clase.Angajat;
-import ro.ase.cts.clase.Utils;
+import ro.ase.cts.clase.Aplicant;
+import ro.ase.cts.clase.loader.AngajatiLoader;
+import ro.ase.cts.clase.loader.AplicantiLoader;
+
 
 
 public class Program {
 
 	public static void main(String[] args) {
-		List<Angajat> listaAngajati;
+		List<Aplicant> listaAngajati;
+		AplicantiLoader angajatLoader = new AngajatiLoader();
 		try {
-			listaAngajati = Utils.readAngajati("angajati.txt");
-			for(Angajat angajat:listaAngajati)
+			listaAngajati = angajatLoader.load("angajati.txt");
+			for(Aplicant angajat:listaAngajati)
 				System.out.println(angajat.toString());
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

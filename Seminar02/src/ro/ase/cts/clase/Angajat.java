@@ -25,7 +25,6 @@ public class Angajat extends ro.ase.cts.clase.Aplicant {
 	}
 	public Angajat() {
 		super();
-		
 	}
 	
 	
