@@ -3,10 +3,9 @@ package ro.ase.cts.main;
 import java.io.FileNotFoundException;
 import java.util.List;
 
-import ro.ase.cts.clase.Angajat;
-import ro.ase.cts.clase.Aplicant;
-import ro.ase.cts.clase.loader.AngajatiLoader;
-import ro.ase.cts.clase.loader.AplicantiLoader;
+import ro.ase.cts.builder01.Aplicant;
+import ro.ase.cts.builder01.loader.AngajatiLoader;
+import ro.ase.cts.builder01.loader.AplicantiLoader;
 
 
 

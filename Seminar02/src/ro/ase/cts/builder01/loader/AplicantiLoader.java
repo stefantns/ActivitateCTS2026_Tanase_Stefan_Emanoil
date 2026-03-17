@@ -1,6 +1,6 @@
-package ro.ase.cts.clase.loader;
+package ro.ase.cts.builder01.loader;
 
-import ro.ase.cts.clase.Aplicant;
+import ro.ase.cts.builder01.Aplicant;
 
 import java.io.FileNotFoundException;
 import java.util.List;
