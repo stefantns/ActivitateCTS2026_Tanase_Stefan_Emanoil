@@ -1,7 +1,5 @@
 package ro.ase.cts.builder02;
 
-import ro.ase.cts.builder01.Internare;
-
 public class InternareBuilder02 implements AbstractBuilder02 {
 
     private boolean patRabatabil;
@@ -17,8 +15,8 @@ public class InternareBuilder02 implements AbstractBuilder02 {
     }
 
     @Override
-    public Internare build(String nume) {
-        return new Internare(nume, patRabatabil, micDejunInclus, papuciCamera, halat);
+    public Internare02 build(String nume) {
+        return new Internare02(nume, patRabatabil, micDejunInclus, papuciCamera, halat);
     }
 
     @Override
