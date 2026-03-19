@@ -1,0 +1,21 @@
+package ro.ase.cts.clase;
+
+
+public abstract class Supa implements FelDeMancare {
+    private int gramaj;
+    private double pret;
+
+    public Supa(int gramaj, double pret) {
+        this.gramaj = gramaj;
+        this.pret = pret;
+    }
+
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder();
+        sb.append("gramaj=").append(gramaj);
+        sb.append(", pret=").append(pret);
+        return sb.toString();
+    }
+}
