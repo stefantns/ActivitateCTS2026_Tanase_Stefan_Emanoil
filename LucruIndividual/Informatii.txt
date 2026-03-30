@@ -1,0 +1,37 @@
+=======================================
+         DESIGN PATTERNS CHEAT SHEET
+=======================================
+
+--- SINGLETON (Creational) ---
+3 lucruri obligatorii:
+1. private static Singleton instanta = null;
+2. private Singleton(...)  — constructor PRIVAT
+3. public static synchronized Singleton getInstance(...)
+   -> daca instanta == null, o creaza; altfel returneaza aceeasi
+
+Nu folosim: clasa abstracta (nu poate fi instantiata), interfata (nu controleaza instantierea)
+Cuvinte cheie in enunt: "o singura instanta", "un singur sistem", "acelasi obiect"
+
+--- SIMPLE FACTORY (Creational) ---
+4 actori:
+1. <<Interface>> Produs       — interfata primita (ex: Bautura, Floare)
+2. Clase concrete              — implementeaza interfata (ex: Cafea, Ceai, CiocolataCalda)
+3. Factory                     — clasa cu metoda STATIC care creeaza obiectele
+4. Client (Main)               — foloseste DOAR interfata + fabrica, NU clasele concrete
+
+Fabrica:
+- metoda: public static InterfataProdus creeaza(TipEnum tip, argumente...)
+- returnează INTERFATA, nu clasa concreta (DIP!)
+- switch pe enum -> new ClasaConcreta(...)
+- default -> throw new IllegalArgumentException(...)
+
+Main-ul e ORB:
+- NU importa clase concrete (Cafea, Ceai etc.)
+- importa DOAR: interfata + fabrica + enum
+- variabile de tip INTERFATA: Bautura b = FabricaBauturi.getBautura(...)
+
+Enum pentru tipuri:
+- nu String, ca sa nu gresesti la scriere
+- IDE-ul da autocomplete
+
+Cuvinte cheie in enunt: "crearea separata de logica principala", "diferite tipuri de..."
