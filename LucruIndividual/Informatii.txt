@@ -35,3 +35,41 @@ Enum pentru tipuri:
 - IDE-ul da autocomplete
 
 Cuvinte cheie in enunt: "crearea separata de logica principala", "diferite tipuri de..."
+
+--- FACTORY METHOD (Creational) ---
+Diferenta fata de Simple Factory:
+- Simple Factory = 1 fabrica, 1 familie de produse
+- Factory Method = MAI MULTE fabrici, MAI MULTE familii de produse
+- Fabrica insasi e polimorfica (interfata + clase concrete)
+
+Structura (6 actori):
+1. <<Interface>> Produs          — interfata comuna (ex: FelDeMancare, PersonalSpital)
+2. Clase abstracte per familie   — cate una per categorie (ex: Supa, Desert)
+   -> atribute DIFERITE per familie (de asta exista clase abstracte!)
+3. Clase concrete                — extends clasa abstracta (ex: SupaDeLegume extends Supa)
+4. <<Interface>> Fabrica         — interfata fabricii cu metoda fabrica
+5. Fabrici concrete              — cate una per familie (ex: FabricaSupa, FabricaDesert)
+6. Client (Main)                 — dublu DIP: interfata fabrica + interfata produs
+
+Enum-uri (trick-ul):
+- TipFelDeMancare (interfata GOALA) — lipiciul comun
+- TipSupa implements TipFelDeMancare
+- TipDesert implements TipFelDeMancare
+- Asa metoda fabricii accepta ambele enum-uri prin acelasi parametru
+
+Interfata fabricii — overload-uri:
+- creare(tip, gramaj, pret)           // pentru familia fara calorii
+- creare(tip, gramaj, pret, calorii)  // pentru familia cu calorii
+- Fabrica care nu foloseste un overload DELEGHEAZA catre celalalt (nu return null!)
+
+Main — dublu DIP:
+- FabricaFelDeMancare fabrica = new FabricaSupa();    // DIP pe fabrica
+- FelDeMancare supa = fabrica.creare(...);             // DIP pe produs
+- NU importa clase concrete, DOAR interfete + fabrici + enum-uri
+
+Clase abstracte — CAND le folosim:
+- DOAR cand familiile au ATRIBUTE DIFERITE (Supa: gramaj,pret vs Desert: gramaj,pret,calorii)
+- La Simple Factory NU le folosim (toate clasele au aceleasi atribute)
+- toString() se pune in clasa abstracta, afisareDescriere() in clasa concreta
+
+Cuvinte cheie in enunt: "familie de obiecte impartite pe CATEGORII", "doua tipuri de..."
