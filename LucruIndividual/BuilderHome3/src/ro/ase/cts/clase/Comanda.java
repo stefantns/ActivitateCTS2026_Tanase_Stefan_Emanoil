@@ -21,38 +21,6 @@ public class Comanda {
         this.tipSos = tipSos;
     }
 
-    public void setNumeClient(String numeClient) {
-        this.numeClient = numeClient;
-    }
-
-    public void setNrMasa(int nrMasa) {
-        this.nrMasa = nrMasa;
-    }
-
-    public void setSupaInclusa(boolean supaInclusa) {
-        this.supaInclusa = supaInclusa;
-    }
-
-    public void setDesertInclus(boolean desertInclus) {
-        this.desertInclus = desertInclus;
-    }
-
-    public void setBauturaInclusa(boolean bauturaInclusa) {
-        this.bauturaInclusa = bauturaInclusa;
-    }
-
-    public void setPortieMare(boolean portieMare) {
-        this.portieMare = portieMare;
-    }
-
-    public void setSosExtra(boolean sosExtra) {
-        this.sosExtra = sosExtra;
-    }
-
-    public void setTipSos(String tipSos) {
-        this.tipSos = tipSos;
-    }
-
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("Comanda{");
