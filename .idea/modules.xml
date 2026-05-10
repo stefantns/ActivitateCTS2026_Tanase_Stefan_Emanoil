@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Seminar08/Adapter/Adapter.iml" filepath="$PROJECT_DIR$/Seminar08/Adapter/Adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar05/Builder/Builder.iml" filepath="$PROJECT_DIR$/Seminar05/Builder/Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/LucruIndividual/Builder1/Builder1.iml" filepath="$PROJECT_DIR$/LucruIndividual/Builder1/Builder1.iml" />
       <module fileurl="file://$PROJECT_DIR$/LucruIndividual/BuilderHome1/BuilderHome1.iml" filepath="$PROJECT_DIR$/LucruIndividual/BuilderHome1/BuilderHome1.iml" />
@@ -9,7 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/LucruIndividual/BuilderHome3/BuilderHome3.iml" filepath="$PROJECT_DIR$/LucruIndividual/BuilderHome3/BuilderHome3.iml" />
       <module fileurl="file://$PROJECT_DIR$/LucruIndividual/BuilderHome4/BuilderHome4.iml" filepath="$PROJECT_DIR$/LucruIndividual/BuilderHome4/BuilderHome4.iml" />
       <module fileurl="file://$PROJECT_DIR$/LucruIndividual/BuilderSingleton/BuilderSingleton.iml" filepath="$PROJECT_DIR$/LucruIndividual/BuilderSingleton/BuilderSingleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar12/ChainOfResponsibility/ChainOfResponsibility.iml" filepath="$PROJECT_DIR$/Seminar12/ChainOfResponsibility/ChainOfResponsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar11/Command/Command.iml" filepath="$PROJECT_DIR$/Seminar11/Command/Command.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar09/Composite/Composite.iml" filepath="$PROJECT_DIR$/Seminar09/Composite/Composite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar09/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/Seminar09/Decorator/Decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar08/Facade/Facade.iml" filepath="$PROJECT_DIR$/Seminar08/Facade/Facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar06/FactoryMethod/FactoryMethod.iml" filepath="$PROJECT_DIR$/Seminar06/FactoryMethod/FactoryMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/LucruIndividual/FactoryMethodHome1/FactoryMethodHome1.iml" filepath="$PROJECT_DIR$/LucruIndividual/FactoryMethodHome1/FactoryMethodHome1.iml" />
       <module fileurl="file://$PROJECT_DIR$/LucruIndividual/FactoryMethodHome2/FactoryMethodHome2.iml" filepath="$PROJECT_DIR$/LucruIndividual/FactoryMethodHome2/FactoryMethodHome2.iml" />
@@ -30,8 +35,11 @@
       <module fileurl="file://$PROJECT_DIR$/Seminar04/Seminar04.iml" filepath="$PROJECT_DIR$/Seminar04/Seminar04.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar05/Seminar05.iml" filepath="$PROJECT_DIR$/Seminar05/Seminar05.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar06/Seminar06.iml" filepath="$PROJECT_DIR$/Seminar06/Seminar06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar08/Seminar08.iml" filepath="$PROJECT_DIR$/Seminar08/Seminar08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar09/Seminar09.iml" filepath="$PROJECT_DIR$/Seminar09/Seminar09.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar10/Seminar10.iml" filepath="$PROJECT_DIR$/Seminar10/Seminar10.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar11/Seminar11.iml" filepath="$PROJECT_DIR$/Seminar11/Seminar11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar12/Seminar12.iml" filepath="$PROJECT_DIR$/Seminar12/Seminar12.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar_1096.iml" filepath="$PROJECT_DIR$/Seminar_1096.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar04/SimpleFactory/SimpleFactory.iml" filepath="$PROJECT_DIR$/Seminar04/SimpleFactory/SimpleFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/LucruIndividual/SimpleFactoryHome1/SimpleFactoryHome1.iml" filepath="$PROJECT_DIR$/LucruIndividual/SimpleFactoryHome1/SimpleFactoryHome1.iml" />
@@ -45,6 +53,7 @@
       <module fileurl="file://$PROJECT_DIR$/LucruIndividual/SingletonHome2/SingletonHome2.iml" filepath="$PROJECT_DIR$/LucruIndividual/SingletonHome2/SingletonHome2.iml" />
       <module fileurl="file://$PROJECT_DIR$/LucruIndividual/SingletonHome3/SingletonHome3.iml" filepath="$PROJECT_DIR$/LucruIndividual/SingletonHome3/SingletonHome3.iml" />
       <module fileurl="file://$PROJECT_DIR$/LucruIndividual/SingletonPrototype/SingletonPrototype.iml" filepath="$PROJECT_DIR$/LucruIndividual/SingletonPrototype/SingletonPrototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar12/Strategy/Strategy.iml" filepath="$PROJECT_DIR$/Seminar12/Strategy/Strategy.iml" />
     </modules>
   </component>
 </project>
